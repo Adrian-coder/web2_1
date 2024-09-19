@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaugă Obiect</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Adaugă un Obiect</h1>
+        <form method="post">
+            <label for="nume">Nume Obiect:</label>
+            <input type="text" name="nume" id="nume" required>
+            <button type="submit">Adaugă</button>
+        </form>
+        <a href="/">Înapoi la lista de obiecte</a>
+    </div>
+</body>
+</html>
